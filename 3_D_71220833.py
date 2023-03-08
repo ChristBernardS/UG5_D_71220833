@@ -10,8 +10,8 @@ while True:
         c = int(b[0])
         d = int(b[1])
         e = abs(a*math.tan(math.radians(c)))
-        f = abs(a*math.tan(math.radians(d))-math.tan(math.radians(c)))
-        g = abs(f*math.tan(d))
+        f = abs(a*(math.tan(math.radians(d))-math.tan(math.radians(c))))
+        g = abs(f*math.tan(math.radians(d)))
         print(f'Ketinggian drone pada menit ke-5 adalah {round(e, ndigits=2)} meter')
         print(f'Selisih ketinggian drone saat menit ke-5 dan ke-6 adalah {round(g, ndigits=2)} meter')
     except:
