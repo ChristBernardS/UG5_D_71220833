@@ -34,7 +34,7 @@ while True:
     elif a == 'sabtu':
         for i in range(len(sabtu)):
             if sabtu[i] != ' ':
-                print(f"Sesi ke-{i+1}: {jumat[i]}")
+                print(f"Sesi ke-{i+1}: {sabtu[i]}")
         break
     else:
         print('Input yang anda masukkan tidak valid')
